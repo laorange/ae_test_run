@@ -4,6 +4,8 @@
 
 因为生成的结果是动态的，想要查看完整示例可点击此处：![示例网站](http://quoi.top/media/file/0311.html)
 
+受带宽限制，示例网页加载极其缓慢，还请谅解
+
 查看源代码请点击![此处](https://github.com/laorange/ae_test_run/blob/main/parse.py)
 
 下面的是截图:
