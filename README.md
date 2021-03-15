@@ -1,3 +1,5 @@
+<a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
+
 # aeroengine test run
 
 使用pandas+plotly对2021.03综合实验周的航空发动机试车原理及故障诊断实验的数据分析代码示例
