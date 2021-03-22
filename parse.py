@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import plotly as py
 import plotly.graph_objs as go
@@ -26,7 +27,10 @@ cols = ['Elapsed (s)', 'PLA (%)', 'Altitude (m)', 'Delta ISA', 'Airspeed (Mn)', 
         'NH (%)', 'NH Setpoint (rpm)', 'NL (rpm)', 'NL (%)', 'NL Setpoint (rpm)', 'EGT (K)', 'Fuel flow (kg/h)',
         'Fuel pump rating (rpm)', 'Fuel pressure (bars)', 'Oil pump rating (rpm)', 'Oil pressure (bars)']
 
-xl = pd.read_excel(r'2021-03-11T16;50;37_Trace.xlsx')
+# file_path = r'2021-03-12T16;39;33_Trace.xlsx'
+file_path = input('请输入文件名：')
+name = os.path.splitext(os.path.split(file_path)[1])[0]
+xl = pd.read_excel(file_path)
 
 res = []
 for col in cols:
@@ -36,4 +40,4 @@ layout = go.Layout(barmode='group')
 
 fig = go.Figure(data=res, layout=layout)
 
-py.offline.plot(fig, filename="1.html")
+py.offline.plot(fig, filename=f"{name}.html")
