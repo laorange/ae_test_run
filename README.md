@@ -4,9 +4,9 @@
 
 使用pandas+plotly对2021.03综合实验周的航空发动机试车原理及故障诊断实验的数据分析代码示例
 
-因为生成的结果是动态的，查看完整示例可点击此处：![示例网站](https://laorange.github.io/ae_test_run/demo.html)
+因为生成的结果是动态的，查看示例可访问该网站：https://laorange.github.io/ae_test_run/demo.html
 
-使用python实现，查看源代码请点击![此处](https://github.com/laorange/ae_test_run/blob/main/parse.py)
+使用python实现，查看源代码可点击![此处](https://github.com/laorange/ae_test_run/blob/main/parse.py)
 
 ---------------
 
